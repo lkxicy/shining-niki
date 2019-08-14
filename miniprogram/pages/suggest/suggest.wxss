@@ -1,0 +1,25 @@
+@import "../../dist/common/index.wxss";
+
+page{
+  background: #ffb3a7;
+}
+
+.fuhao{
+  font-size: 20px;
+  color: #b35c44
+}
+
+.suojin{
+  text-indent:10px;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff2df;
+}
+
+.normal{
+  font-size: 15px;
+  color:#424c50;
+}

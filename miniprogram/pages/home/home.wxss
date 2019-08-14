@@ -1,0 +1,61 @@
+@import "../../dist/common/index.wxss";
+
+page{
+  background: #ffb3a7;
+}
+
+
+
+.button{
+  height: 20px; 
+  width: 100%; 
+}
+
+.mid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color:#424c50;
+}
+
+.share{
+  font-size: 15px;
+  color:#424c50;
+  text-decoration:underline;
+}
+
+.normal{
+  font-size: 15px;
+  color:#424c50;
+}
+
+.down{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: down;
+  color:#424c50;
+}
+
+.middle{
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#424c50;
+}
+
+.middle_small{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#424c50;
+}

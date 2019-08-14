@@ -1,0 +1,51 @@
+ <view class='mid'>
+ <image  src="cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/夜宵.tif" mode="center">  
+  </image> 
+</view> 
+
+<text class='middle'>闪耀暖暖助手\n</text>
+<text class='middle_small'>v1.0.0</text>
+<text>\n\n</text>
+
+<van-cell-group>
+  
+
+  <van-cell icon="comment-o" 
+  is-link 
+  link-type="navigateTo"
+  url='../../pages/suggest/suggest'
+  >
+  <view slot="title">
+    <text class='normal'>意见反馈</text>
+  </view>
+  </van-cell>
+
+  <van-cell icon="thumb-circle-o" 
+  is-link
+  link-type="navigateTo"
+  bind:click='previewImage'
+  >
+  <view slot="title" >
+    <text class='normal'>赞赏支持</text>
+  </view>
+  </van-cell>
+
+  <van-cell icon="apps-o" 
+  is-link
+  link-type="navigateTo"
+  url='../../pages/about/about'
+  >
+  <view slot="title" >
+    <text class='normal'>关于</text>
+  </view>
+  </van-cell>
+
+
+</van-cell-group>
+
+
+<text>\n</text>
+<button open-type='share'>
+<text class='share'>觉得好用的话，不妨点击此处分享给好友</text>
+</button>
+<text class='small'>夜宵天下第一ヾ(´∀`o)+</text>

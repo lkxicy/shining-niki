@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "van-picker": "../../dist/picker/index",
+    "van-button": "../../dist/button/index",
+    "van-radio": "../../dist/radio/index",
+    "van-radio-group": "../../dist/radio-group/index",
+    "van-row": "../../dist/row/index",
+    "van-col": "../../dist/col/index",
+    "van-rate": "../../dist/rate/index",
+    "van-stepper": "../../dist/stepper/index",
+    "van-progress": "../../dist/progress/index"
+  },
+  "navigationBarTitleText": "星级提升"
+
+  
+}

@@ -1,0 +1,100 @@
+@import "../../dist/common/index.wxss";
+page{
+  background: #ffb3a7;
+}
+
+.fuhao{
+  font-size: 20px;
+  color: #b35c44
+}
+
+.suojin{
+  text-indent:10px;
+}
+
+.title-small{
+  font-weight: 600;
+  color: #fff2df;
+}
+
+.number{
+  font-weight: 600;
+  color: #70f3ff;
+}
+
+.top-tips{
+  font-size: 12px;
+  color: #fff2df;
+}
+
+.param{
+  font-weight: 600;
+  font-size: 20px;
+  color: #70f3ff;
+}
+
+.normal{
+  font-size: 15px;
+  color: #424c50;
+}
+
+.normal2{
+  font-size: 18px;
+  font: 600;
+  color:#424c50;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff2df;
+}
+
+.small{
+  font-size: 12px;
+  color:#f3f9f1;
+}
+
+
+.shine{
+  font-weight: 900;
+  font-size: 23px;
+  color: #fff143;
+}
+.feifan{
+  font-weight: 900;
+  font-size: 23px;
+  color: #d6ecf0;
+}
+.xiyou{
+  font-weight: 900;
+  font-size: 23px;
+  color: #a78e44;
+}
+
+.shine-tips{
+  font-size: 20px;
+  color: #fff143;
+}
+.feifan-tips{
+  font-size: 20px;
+  color: #d6ecf0;
+}
+.xiyou-tips{
+  font-size: 20px;
+  color: #a78e44;
+}
+
+.shine-back{
+  font-size: 10px;
+  color: #fff143;
+}
+.feifan-back{
+  font-size: 10px;
+  color: #d6ecf0;
+}
+.xiyou-back{
+  font-size: 10px;
+  color: #a78e44;
+}
+

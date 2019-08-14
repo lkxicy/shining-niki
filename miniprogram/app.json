@@ -1,0 +1,45 @@
+{
+  "usingComponents": {
+    "van-icon": "../../dist/icon/index",
+    "van-tabbar": "../../dist/tabbar/index",
+    "van-tabbar-item": "../../dist/tabbar-item/index"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/level/level",
+    "pages/home/home",
+    "pages/suggest/suggest",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundColor": "#f3f9f1",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f3f9f1",
+    "navigationBarTitleText": "闪耀暖暖助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ffb3a7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "星级提升",
+        "iconPath":"img/STAR_1.png",
+        "selectedIconPath":"img/STAR.png" 
+      },
+      {
+        "pagePath": "pages/level/level",
+        "text": "等级提升",
+        "iconPath": "img/UP_1.png",
+        "selectedIconPath": "img/UP.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "关于",
+        "iconPath": "img/HOME_1.png",
+        "selectedIconPath": "img/HOME.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,133 @@
+
+<view class='suojin'><text class='title'>设计师之影的稀有度</text>
+<text class='top-tips'>----底部有说明及提示哦</text></view>
+<view class="van-hairline--surround"></view>
+
+
+<van-radio-group value="{{ radio }}" bind:change="onSelect">
+    <text>\n</text>
+    <van-radio name="1" checked-color='#fff143' class="van-hairline--top-bottom">
+    <text class='shine'>闪耀</text>
+    <text class='shine-back'>-----吸吸吸吸吸</text>
+    </van-radio>
+    <van-radio name="2" checked-color='#d6ecf0' class="van-hairline--top-bottom">
+    <text class='feifan'>非凡</text>
+    <text class='feifan-back'>-----加把劲，非凡卡也不差</text>
+    </van-radio>
+    <van-radio name="3" checked-color='#a78e44' class="van-hairline--top-bottom">
+    <text class='xiyou'>稀有</text>
+    <text class='xiyou-back'>-----加油，早日偷渡欧洲</text>
+    </van-radio>
+</van-radio-group>
+
+<text>\n</text>
+
+<view class='suojin'>
+<text class='title'>计算结果</text>
+<text class='small'>----请在下方选择正确的等级哦</text></view>
+
+<view class="van-hairline--surround"></view>
+
+<view class='suojin'>
+<text class='param'>{{rare}}</text>
+<text class='normal'>设计师之影从</text>
+<text class='param'>{{level_from}}级</text>
+<text class='normal'>升级到</text>
+<text class='param'>{{level_to}}级\n</text></view>
+
+
+<text class='normal'><text class='fuhao'>◆</text> 总共需要：(三种材料其中一种+金币)\n</text>
+
+
+<text class='normal'><text class='fuhao'>◆</text> 经验：</text>
+<text class='param'>{{jingyan}} </text>
+
+<text class='normal'>金币：</text>
+<text class='param'>{{money}}\n</text>
+
+
+<text class='normal'><text class='fuhao'>◆</text> 时间之诗：</text>
+<text class='param'>{{small}}\n</text>
+
+
+<text class='normal'><text class='fuhao'>◆</text> 记忆之轨：</text>
+<text class='param'>{{middle}}\n</text>
+
+
+<text class='normal'><text class='fuhao'>◆</text> 时光之旅：</text>
+<text class='param'>{{big}} \n\n</text>
+
+<view class='suojin'>
+<text class='title'>等级数据\n</text></view>
+
+<view class="van-hairline--surround"></view>
+
+<van-row>
+<van-col span="14">
+<view class='suojin'>
+<text class='normal2'>当前等级</text></view>
+</van-col>
+<van-col span="0">
+<text class='normal2'>目标等级</text>
+</van-col>
+</van-row>
+
+<van-row>
+  <!--当前等级-->
+  <van-col span="14">
+  <van-stepper
+  value="{{ level_from }}"
+  integer
+  min="{{level_from_min}}"
+  max="{{level_from_max}}"
+  step="1"
+  bind:change="onPush_from"
+  />
+  </van-col>
+
+  <!--目标等级-->
+  <van-col>
+  <van-stepper
+  value="{{ level_to }}"
+  integer
+  min="{{level_to_min}}"
+  max="{{level_to_max}}"
+  step="1"
+  bind:change="onPush_to"
+  />
+  </van-col>
+</van-row>
+
+<text>\n</text>
+
+<view class='suojin'>
+<text class='title'>说明及提示</text></view>
+<view class="van-hairline--surround"></view>
+
+
+<text class='normal'><text class='fuhao'>◆</text> 上述升级材料数值为<text class='number'>使用单一材料</text>升级所需量\n</text>
+
+<text class='xiyou-tips'><text class='fuhao'>◆</text> 稀有</text>
+<text class='normal'>设计师之影<text class='number'>30级</text>可完成全部回忆，满级为<text class='number'>60级</text>\n</text>
+
+<text class='feifan-tips'><text class='fuhao'>◆</text> 非凡</text>
+<text class='normal'>设计师之影<text class='number'>40级</text>可完成全部回忆，满级为<text class='number'>80级</text>\n</text>
+
+<text class='shine-tips'><text class='fuhao'>◆</text> 闪耀</text>
+<text class='normal'>设计师之影<text class='number'>50级</text>可完成全部回忆，满级为<text class='number'>80级</text>\n</text>
+
+
+<text class='normal'><text class='title-small'><text class='fuhao'>◆</text> 等级数据</text>可以直接点中间数字输入数值哦\n</text>
+
+<text class='normal'><text class='fuhao'>◆</text> 若发现数据或程序出错，可以到<text class='number'>关于</text>处反馈\n</text>
+
+<text class='normal'><text class='fuhao'>◆</text> 数据<text class='number'>仅供参考</text>，实际以游戏内容为准\n</text>
+
+
+
+
+
+
+
+
+

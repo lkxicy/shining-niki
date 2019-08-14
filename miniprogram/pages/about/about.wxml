@@ -1,0 +1,8 @@
+<view class='suojin'>
+<text class='title'>小程序说明\n</text></view>
+<view class="van-hairline--surround"></view>
+
+<text class='normal'><text class='fuhao'>◆</text> 当前版本为v1.0.0\n</text>
+<text class='normal'><text class='fuhao'>◆</text> 部分图片资源源自网络，如侵权请邮箱联系删除\n</text>
+<text class='normal'><text class='fuhao'>◆</text> 邮箱：lkx_icy@qq.com\n</text>
+<text class='normal'><text class='fuhao'>◆</text> 希望本程序能帮助到各位搭配师，搭配师们如果想支持一下可以返回并点击赞赏支持按钮哦~\n</text>
