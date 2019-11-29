@@ -3,14 +3,35 @@ page{
   background: #ffb3a7;
 }
 
-.fuhao{
-  font-size: 20px;
-  color: #b35c44
+.blank1{
+  background: #FFC6BD;
+  padding:20px 5px 10px 10px;
 }
 
-.suojin{
-  text-indent:10px;
+.blank2{
+  background: #ffb3a7;
+  padding:5px 5px 10px 10px;
 }
+
+.mid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFC6BD;
+  padding:10px 10px 10px 10px;
+}
+
+
+.all{
+  padding:5px 10px;
+}
+
+
+.fuhao{
+  font-size: 20px;
+  color: #fff2df
+}
+
 
 .title-small{
   font-weight: 600;

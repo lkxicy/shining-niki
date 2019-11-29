@@ -1,6 +1,8 @@
+<view class='all'>
 
-<view class='suojin'><text class='title'>设计师之影的稀有度</text>
-<text class='top-tips'>----底部有说明及提示哦</text></view>
+
+<text class='title' >❏ 设计师之影稀有度</text>
+<text class='top-tips'>----底部有说明及提示哦</text>
 <view class="van-hairline--surround"></view>
 
 
@@ -22,50 +24,48 @@
 
 <text>\n</text>
 
-<view class='suojin'>
-<text class='title'>计算结果</text>
-<text class='small'>----请在下方选择正确的等级哦</text></view>
+<text class='title'>❏ 计算结果</text>
+<text class='small'>----请在下方选择正确的等级哦</text>
 
 <view class="van-hairline--surround"></view>
 
-<view class='suojin'>
+
 <text class='param'>{{rare}}</text>
 <text class='normal'>设计师之影从</text>
 <text class='param'>{{level_from}}级</text>
 <text class='normal'>升级到</text>
-<text class='param'>{{level_to}}级\n</text></view>
+<text class='param'>{{level_to}}级\n</text>
 
 
-<text class='normal'><text class='fuhao'>◆</text> 总共需要：(三种材料其中一种+金币)\n</text>
+<text class='normal'> 总共需要：(三种材料其中一种+金币)\n</text>
 
 
-<text class='normal'><text class='fuhao'>◆</text> 经验：</text>
+<text class='normal'>经验：</text>
 <text class='param'>{{jingyan}} </text>
 
 <text class='normal'>金币：</text>
 <text class='param'>{{money}}\n</text>
 
 
-<text class='normal'><text class='fuhao'>◆</text> 时间之诗：</text>
+<text class='normal'>时间之诗<text class='small'>(25经验)</text>：</text>
 <text class='param'>{{small}}\n</text>
 
 
-<text class='normal'><text class='fuhao'>◆</text> 记忆之轨：</text>
+<text class='normal'>记忆之轨<text class='small'>(150经验)</text>：</text>
 <text class='param'>{{middle}}\n</text>
 
 
-<text class='normal'><text class='fuhao'>◆</text> 时光之旅：</text>
-<text class='param'>{{big}} \n\n</text>
+<text class='normal'>时光之旅<text class='small'>(500经验)</text>：</text>
+<text class='param'>{{big}}\n\n</text>
 
-<view class='suojin'>
-<text class='title'>等级数据\n</text></view>
+
+<text class='title'>❏ 等级数据\n</text>
 
 <view class="van-hairline--surround"></view>
 
 <van-row>
 <van-col span="14">
-<view class='suojin'>
-<text class='normal2'>当前等级</text></view>
+<text class='normal2'>当前等级</text>
 </van-col>
 <van-col span="0">
 <text class='normal2'>目标等级</text>
@@ -100,34 +100,35 @@
 
 <text>\n</text>
 
-<view class='suojin'>
-<text class='title'>说明及提示</text></view>
+
+<text class='title'>❏ 说明及提示</text>
 <view class="van-hairline--surround"></view>
 
 
-<text class='normal'><text class='fuhao'>◆</text> 上述升级材料数值为<text class='number'>使用单一材料</text>升级所需量\n</text>
+<text class='normal'> 上述升级材料数值为<text class='number'>使用单一材料</text>升级所需量\n</text>
 
-<text class='xiyou-tips'><text class='fuhao'>◆</text> 稀有</text>
-<text class='normal'>设计师之影<text class='number'>30级</text>可完成全部回忆，满级为<text class='number'>60级</text>\n</text>
+<text class='xiyou-tips'> 稀有</text>
+<text class='normal'>设计师<text class='number'>30级</text>可完成全部回忆，满级为<text class='number'>60级</text>\n</text>
 
-<text class='feifan-tips'><text class='fuhao'>◆</text> 非凡</text>
-<text class='normal'>设计师之影<text class='number'>40级</text>可完成全部回忆，满级为<text class='number'>80级</text>\n</text>
+<text class='feifan-tips'> 非凡</text>
+<text class='normal'>设计师<text class='number'>40级</text>可完成全部回忆，满级为<text class='number'>80级</text>\n</text>
 
-<text class='shine-tips'><text class='fuhao'>◆</text> 闪耀</text>
-<text class='normal'>设计师之影<text class='number'>50级</text>可完成全部回忆，满级为<text class='number'>80级</text>\n</text>
-
-
-<text class='normal'><text class='title-small'><text class='fuhao'>◆</text> 等级数据</text>可以直接点中间数字输入数值哦\n</text>
-
-<text class='normal'><text class='fuhao'>◆</text> 若发现数据或程序出错，可以到<text class='number'>关于</text>处反馈\n</text>
-
-<text class='normal'><text class='fuhao'>◆</text> 数据<text class='number'>仅供参考</text>，实际以游戏内容为准\n</text>
+<text class='shine-tips'> 闪耀</text>
+<text class='normal'>设计师<text class='number'>50级</text>可完成全部回忆，满级为<text class='number'>80级</text>\n</text>
 
 
+<text class='normal'><text class='title-small'> 等级数据</text>可以直接点中间数字输入数值哦\n</text>
 
+<text class='normal'> 若发现数据或程序出错，可以到<text class='number'>关于</text>处反馈\n</text>
 
+<text class='normal'> 数据<text class='number'>仅供参考</text>，实际以游戏内容为准\n</text>
 
+</view>
 
+  <view class="blank1"></view>
+  <view class="blank2"></view>
 
+  <view class="mid">
+  <ad unit-id="adunit-38921ff2df788501"></ad>
 
-
+  </view>

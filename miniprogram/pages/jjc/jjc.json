@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "van-notice-bar": "../../dist/notice-bar/index",
+    "van-cell": "../../dist/cell/index",
+    "van-cell-group": "../../dist/cell-group/index",
+    "van-checkbox": "../../dist/checkbox/index",
+    "van-checkbox-group": "../../dist/checkbox-group/index",
+    "van-field": "../../dist/field/index",
+    "van-picker": "../../dist/picker/index",
+    "van-popup": "../../dist/popup/index",
+    "van-button": "../../dist/button/index",
+    "van-stepper": "../../dist/stepper/index"
+
+  },
+  "navigationBarTitleText": "竞技场计算器"
+}

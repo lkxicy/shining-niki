@@ -1,21 +1,23 @@
 {
   "usingComponents": {
-    "van-icon": "../../dist/icon/index",
-    "van-tabbar": "../../dist/tabbar/index",
-    "van-tabbar-item": "../../dist/tabbar-item/index"
+    "van-icon": "../../dist/icon/index"
   },
   "pages": [
     "pages/index/index",
     "pages/level/level",
     "pages/home/home",
     "pages/suggest/suggest",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/designer/designer",
+    "pages/skill/skill",
+    "pages/introduce/introduce",
+    "pages/jjc/jjc"
   ],
   "window": {
     "backgroundColor": "#f3f9f1",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f3f9f1",
-    "navigationBarTitleText": "闪耀暖暖助手",
+    "navigationBarTitleText": "闪暖忆海绘",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -28,10 +30,16 @@
         "selectedIconPath":"img/STAR.png" 
       },
       {
-        "pagePath": "pages/level/level",
-        "text": "等级提升",
-        "iconPath": "img/UP_1.png",
-        "selectedIconPath": "img/UP.png"
+        "pagePath": "pages/jjc/jjc",
+        "text": "竞技场",
+        "iconPath": "img/JJC_1.png",
+        "selectedIconPath": "img/JJC.png"
+      },
+      {
+        "pagePath": "pages/designer/designer",
+        "text": "图鉴",
+        "iconPath": "img/PERSON_1.png",
+        "selectedIconPath": "img/PERSON.png"
       },
       {
         "pagePath": "pages/home/home",

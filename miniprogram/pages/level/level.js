@@ -362,6 +362,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    
+    return {
+      title: '闪耀暖暖工具箱',
+      path: 'pages/index/index',
+      imageUrl: '../../img/SHARE.png'
+    }
   }
 })

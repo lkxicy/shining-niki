@@ -1,6 +1,6 @@
-
-<view class='suojin'><text class='title'>设计师之影的稀有度</text>
-<text class='top-tips'>----底部有说明及提示哦</text></view>
+<view class="all">
+<text class='title'>❏ 设计师之影稀有度</text>
+<text class='top-tips'>----底部有说明及提示哦</text>
 <view class="van-hairline--surround"></view>
 
 <van-radio-group value="{{ radio }}" bind:change="onSelect">
@@ -20,36 +20,40 @@
 </van-radio-group>
 <text>\n</text>
 
-<view class='suojin'>
-<text class='title'>计算结果</text>
-<text class='small'>----请在下方选择正确的星级和阶数哦</text></view>
+
+<text class='title'>❏ 计算结果</text>
+<text class='small'>----请在下方选择正确的星级和阶数哦</text>
 <view class="van-hairline--surround"></view>
 
-<view class='suojin'>
+
 <text class='param'>{{rare}}</text>
 <text class='normal'>设计师之影从</text>
 <text class='param'>{{star_from}}星{{step_from}}阶</text>
 <text class='normal'>升级到</text>
 <text class='param'>{{star_to}}星{{step_to}}阶\n</text>
-</view>
 
-<text class='normal'><text class='fuhao'>◆</text> 总共需要：\n<text class='fuhao'>◆</text> 普通钥匙：</text>
+
+<text class='normal'> 总共需要：\n 普通钥匙：</text>
 <text class='param'>{{normal_key}}\n</text>
 
-<text class='normal'><text class='fuhao'>◆</text> 稀有钥匙：</text>
+<text class='normal'> 稀有钥匙：</text>
 <text class='param'>{{rare_key}}\n</text>
 
-<text class='normal'><text class='fuhao'>◆</text> 金币：</text>
-<text class='param'>{{money}}\n\n</text>
+<text class='normal'> 金币：</text>
+<text class='param'>{{money}}\n</text>
 
-<view class='suojin'>
-<text class='title'>当前星级及阶数数据\n</text></view>
+<text class='normal'> 大概需要打</text>
+<text class='param'>{{time}}</text>
+<text class='normal'> 次不落的帷幕第八幕，加油鸭\n</text>
+<text class='small'>(这里的次数是没有算入组队的额外奖励和金币消耗的哦)\n\n</text>
+
+
+<text class='title'>❏ 当前星级及阶数数据\n</text>
 <view class="van-hairline--surround"></view>
 
 <van-row gutter="20">
   <van-col span="10">
-  <view class='suojin'>
-    <text class='normal2'>当前星级</text></view>
+    <text class='normal2'>当前星级</text>
   <van-rate value="{{ star_from }}" 
   count="{{star_from_max}}"
   bind:change="onChange_from" />
@@ -69,14 +73,13 @@
 
 <text>\n</text>
 
-<view class='suojin'>
-<text class='title'>目标星级及阶数数据</text></view>
+
+<text class='title'>❏ 目标星级及阶数数据</text>
 <view class="van-hairline--surround"></view>
 
 <van-row gutter="20">
   <van-col span="10">
-  <view class='suojin'>
-    <text class='normal2'>目标星级</text></view>
+    <text class='normal2'>目标星级</text>
   <van-rate value="{{ star_to }}"
   count="{{star_to_max}}"
    bind:change="onChange_to" 
@@ -98,20 +101,32 @@
 
 <text>\n</text>
 
-<view class='suojin'>
-<text class='title'>说明及提示</text></view>
+
+<text class='title'>❏ 说明及提示</text>
 <view class="van-hairline--surround"></view>
 
-<text class='xiyou-tips'><text class='fuhao'>◆</text> 稀有</text>
-<text class='normal'>设计师之影满星为<text class='number'>4星0阶</text>\n<text class='fuhao'>◆</text></text>
+<text class='xiyou-tips'> 稀有</text>
+<text class='normal'>设计师之影满星为<text class='number'>4星0阶</text>\n</text>
 <text class='feifan-tips'> 非凡</text>
 <text class='normal'>、</text>
 <text class='shine-tips'>闪耀</text>
 <text class='normal'>设计师之影满星为<text class='number'>5星0阶</text>\n</text>
 
-<text class='normal'><text class='fuhao'>◆</text> 若发现数据或程序出错，可以到<text class='number'>关于</text>处反馈\n</text>
-<text class='normal'><text class='fuhao'>◆</text> 数据<text class='number'>仅供参考</text>，实际以游戏内容为准\n</text>
+<text class='normal'>第五幕平均产出<text class='number'>14把</text>普通钥匙及<text class='number'>5.5把</text>稀有钥匙\n</text>
+<text class='normal'>第六幕平均产出<text class='number'>16把</text>普通钥匙及<text class='number'>6.5把</text>稀有钥匙\n</text>
+<text class='normal'>第七幕平均产出<text class='number'>18把</text>普通钥匙及<text class='number'>7.5把</text>稀有钥匙\n</text>
+<text class='normal'>第八幕平均产出<text class='number'>20把</text>普通钥匙及<text class='number'>8把</text>稀有钥匙\n</text>
+
+<text class='normal'> 若发现数据或程序出错，可以到<text class='number'>关于</text>处反馈\n</text>
+<text class='normal'> 数据<text class='number'>仅供参考</text>，实际以游戏内容为准\n</text>
 
 
+</view>
 
+  <view class="blank1"></view>
+  <view class="blank2"></view>
 
+  <view class="mid">
+  <ad unit-id="adunit-565493884198fb21"></ad>
+
+  </view>

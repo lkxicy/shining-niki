@@ -1,5 +1,8 @@
-<view class='suojin'>
-<text class='title'> 联系方式\n</text></view>
+<view class="all">
+
+<text class='title'>❏ 联系方式\n</text>
 <view class="van-hairline--surround"></view>
 <text class='normal'><text class='fuhao'>◆</text> 有任何意见或者建议、BUG之类的都可以通过邮箱反馈给我们哦 XD\n</text>
 <text class='normal'><text class='fuhao'>◆</text> 邮箱：lkx_icy@qq.com</text>
+
+</view>

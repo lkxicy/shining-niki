@@ -3,9 +3,18 @@ page{
   background: #ffb3a7;
 }
 
+.all{
+  padding:5px 10px;
+}
+
+.normal-li{
+  font-size: 15px;
+  color:#424c50;
+  text-decoration:underline;
+}
+
 .fuhao{
-  font-size: 20px;
-  color: #b35c44
+  color: #a4e2c6
 }
 
 .suojin{

@@ -9,7 +9,7 @@
 		"newFeature": true
 	},
 	"appid": "wxdf5a50031c09a392",
-	"projectname": "%E9%97%AA%E8%80%80%E6%9A%96%E6%9A%96%E8%AE%A1%E7%AE%97%E5%99%A8",
+	"projectname": "%E9%97%AA%E6%9A%96%E5%BF%86%E6%B5%B7%E7%BB%98",
 	"libVersion": "2.2.5",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -49,6 +49,20 @@
 					"id": -1,
 					"name": "home",
 					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/designer/designer",
+					"pathName": "pages/designer/designer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/jjc/jjc",
+					"pathName": "pages/jjc/jjc",
 					"scene": null
 				}
 			]

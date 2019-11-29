@@ -1,13 +1,28 @@
+<view class="all">
+
  <view class='mid'>
- <image  src="cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/夜宵.tif" mode="center">  
+ <image 
+  style="width: 300px; height: 175px;"
+  src="cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/夜宵_logo.gif" 
+  mode="center">  
   </image> 
 </view> 
 
-<text class='middle'>闪耀暖暖助手\n</text>
-<text class='middle_small'>v1.0.0</text>
+<text class='middle'>闪暖忆海绘\n</text>
+<text class='middle_small'>v2.1.3</text>
 <text>\n\n</text>
 
 <van-cell-group>
+
+  <van-cell icon="upgrade" 
+  is-link 
+  link-type="navigateTo"
+  url='../../pages/level/level'
+  >
+  <view slot="title">
+    <text class='normal'>等级提升</text>
+  </view>
+  </van-cell>
   
 
   <van-cell icon="comment-o" 
@@ -17,6 +32,37 @@
   >
   <view slot="title">
     <text class='normal'>意见反馈</text>
+  </view>
+  </van-cell>
+
+  <van-cell icon="orders-o" 
+  is-link 
+  link-type="navigateTo"
+  url='../../pages/update/update'
+  >
+  <view slot="title">
+    <text class='normal'>更新日志</text>
+  </view>
+  </van-cell>
+
+  <van-cell icon="info-o" 
+  is-link 
+  link-type="navigateTo"
+  url='../../pages/skill/skill'
+  >
+  <view slot="title">
+    <text class='normal'>技能释放技巧</text>
+  </view>
+  </van-cell>
+
+
+<van-cell icon="coupon-o" 
+  is-link 
+  link-type="navigateTo"
+  url='../../pages/introduce/introduce'
+  >
+  <view slot="title">
+    <text class='normal'>技能强度详解</text>
   </view>
   </van-cell>
 
@@ -45,7 +91,11 @@
 
 
 <text>\n</text>
+<view class="button">
 <button open-type='share'>
-<text class='share'>觉得好用的话，不妨点击此处分享给好友</text>
+<text class='share'>· 觉得好用的话，不妨点击此处分享给好友</text>
 </button>
+</view>
 <text class='small'>夜宵天下第一ヾ(´∀`o)+</text>
+
+</view>

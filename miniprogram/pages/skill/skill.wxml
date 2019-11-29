@@ -1,0 +1,71 @@
+<view class="all">
+<text class='title'>❏ 技能(心技技能)释放技巧\n</text>
+<view class="van-hairline--surround"></view>
+<text class='small'>(闪耀爆发和时机爆发都是哪里亮了点哪里，这里我们就不讨论了)</text>
+
+<text class='normal'>
+<text class='small'>首先我们要知道一点，对战中使用的技能顺序不变：
+衣服->饰品->饰品->头发->闪耀瞬间->饰品->饰品->饰品->鞋袜
+因为技能只需要点一下就可以，闪耀瞬间也不计入心技加分的</text>
+
+所以最佳的按法<text class='small'>（10秒和20秒心技都是) </text>就是在下图的时候
+<text class='small'>(也就是连衣裙剩余时间大概1/4的时候)</text>按下设计师技能
+</text>
+
+ <image 
+  style="width: 200px; height: 150px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/临界点.png'
+  mode="center">  
+  </image>
+
+<text class='normal'>
+(一定要先按设计师技能再按心之技能！！！)
+(不然连衣裙分数加不到)
+(但是也要注意不能按太快，不然最后一个饰品没有加成)\n
+</text>
+
+
+
+<text class='title'>❏ 『10秒心技』</text>
+<view class="van-hairline--surround"></view>
+<image 
+  style="width: 200px; height: 70px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/10S心技.png'
+  mode="center">  
+  </image>
+
+<text class='small'>
+10秒时间刚好能覆盖到
+连衣裙技能的后1/4、两个饰品技能以及头发技能的前1/4
+熟练后基本每次都能按到4个技能\n\n</text>
+
+<text class='title'>❏ 『20秒心技』</text>
+<view class="van-hairline--surround"></view>
+
+<image 
+  style="width: 200px; height: 70px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/20S心技.png'
+  mode="center">  
+  </image>
+<text class='small'>
+20秒时间刚好能覆盖到
+连衣裙技能的后1/4 + 头发技能 + 四个饰品技能（最后一个大概只有1秒的时间按）
+熟练后基本每次都能按到6个技能
+
+多试几次就可以掌握的，最后再提醒一下\n</text>
+<text class="normal">
+一定要先按设计师技能再按心之技能！！！
+不然连衣裙分数加不到哦~
+<text class='small'>还有可以观察分数右边有无小小图标看判断自己有没有成功加到分\n</text>
+</text>
+
+<image 
+  style="width: 200px; height: 150px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/分数.png'
+  mode="center">  
+  </image>
+
+
+
+
+</view>

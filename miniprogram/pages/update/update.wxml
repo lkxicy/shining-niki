@@ -1,0 +1,60 @@
+<view class='all'>
+
+<text class='title'>❏ 更新日志\n</text>
+<view class="van-hairline--surround"></view>
+
+<text class='normal-title'><text class='fuhao'>◆</text>闪暖忆海绘v2.1.3\n</text>
+<text class='normal'> 1.图鉴中加入五个新的设计师之影 
+[ 洛昂 · 锦狐灼灼 ] 以及 [ 宙 · 海沫遐思 ]
+[ 左一 · 午夜印象 ] 以及 [ 爱衣 · 四月芳菲 ]
+以及 [ 阿欢 · 完美实验 ]\n</text>
+<text class='normal'> 2.优化部分体验\n\n</text>
+
+
+<text class='normal-title'><text class='fuhao'>◆</text>闪暖忆海绘v2.1.2\n</text>
+<text class='normal'> 1.图鉴中加入四个新的设计师之影 
+[ 暖暖 · 加油鸭 ] 以及 [ 爱衣 · 天空遥想 ]
+[ 暖暖 · 绿野牧歌 ] 以及 [ 秦衣 · 镜花水月 ]\n</text>
+<text class='normal'> 2.星级提升计算改为第八幕 \n</text>
+<text class='normal'> 3.星级提升说明部分加入五~八幕产出 \n\n</text>
+
+
+<text class='normal-title'><text class='fuhao'>◆</text>闪暖忆海绘v2.1.1\n</text>
+<text class='normal'>1.图鉴中加入三个新的设计师之影 
+[ 墨丘利 · 雾夜咏叹 ] 、 [ 左一 · 鎏金之梦 ] 以及 
+[ 夜宵 · 晨露花园 ]\n\n</text>
+
+<text class='normal-title'><text class='fuhao'>◆</text>闪暖忆海绘v2.1.0\n</text>
+<text class='normal'> 1.本小程序改名为 闪暖忆海绘 \n</text>
+<text class='normal'> 2.在关于页增加了竞技场兑换计算工具\n</text>
+<text class='normal'> 3.修正部分数据错误\n</text>
+<text class='normal'> 4.图鉴中加入四个新的设计师之影 
+[ 秦衣 · 辞凤阙 ] 以及 [ 莉莉斯 · 绒兔星球 ]
+[ 倾羽墨 · 一瞬倾城 ] 以及 [ 一衣红雪 · 椿盛 ]\n</text>
+<text class='normal'> 5.[ 等级提升 ]搬家到关于页啦\n</text>
+<text class='normal'> 6.原[ 等级提升 ]页更改为[ 竞技场 ]页\n\n</text>
+
+
+<text class='normal-title'><text class='fuhao'>◆</text>闪耀暖暖工具箱v2.0.3\n</text>
+<text class='normal'> 1.加入卡牌在竞技场中强度计算\n</text>
+<text class='normal'> 2.图鉴中加入新的设计师之影 
+[ 海 · 星夜烟花 ] 以及 [ 夜骸 · 灵魂魔术 ]\n</text>
+<text class='normal'> 3.修正部分文字显示错误BUG\n</text>
+<text class='normal'> 4.优化了分享功能\n\n</text>
+
+
+<text class='normal-title'><text class='fuhao'>◆</text>闪耀暖暖工具箱v2.0.2\n</text>
+<text class='normal'> 1.优化了小程序大小\n\n</text>
+
+
+<text class='normal-title'><text class='fuhao'>◆</text>闪耀暖暖工具箱v2.0.1\n</text>
+<text class='normal'> 1.在关于页加入了技能释放技巧\n</text>
+<text class='normal'> 2.在关于页加入了设计师之影技能详解\n</text>
+<text class='normal'> 3.新添加页面：图鉴\n</text>
+<text class='normal'> 4.在星级提升页加入了第四幕产出计算\n</text>
+<text class='normal'> 5.优化了界面\n</text>
+<text class='normal'> 6.在等级提升页加入了关于材料的描述\n</text>
+<text class='normal'> 7.在关于页加上了我自己（指更新日志）\n</text>
+
+
+</view>

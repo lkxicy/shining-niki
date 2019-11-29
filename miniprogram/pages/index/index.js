@@ -104,6 +104,9 @@ Page({
     normal_key:'0',
     money:'0',
 
+    //场次
+    time:'0',
+
     //1闪耀，2非凡，3稀有
     radio: '1',
 
@@ -134,13 +137,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1,time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.xiyou[i][0]
         rare_sum += this.data.xiyou[i][1]
         money_sum += this.data.xiyou[i][2]
+        time1 = parseInt(normal_sum /20)
+        time2 = parseInt(rare_sum /8)
+      }
+      if(time1==null||time2==null){
+        time1=0;
+        time2=0;
       }
       this.setData({
+        time:Math.max(time1,time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -151,13 +162,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.feifan[i][0]
         rare_sum += this.data.feifan[i][1]
         money_sum += this.data.feifan[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -168,13 +187,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.shine[i][0]
         rare_sum += this.data.shine[i][1]
         money_sum += this.data.shine[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -205,13 +232,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.xiyou[i][0]
         rare_sum += this.data.xiyou[i][1]
         money_sum += this.data.xiyou[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -222,13 +257,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.feifan[i][0]
         rare_sum += this.data.feifan[i][1]
         money_sum += this.data.feifan[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -239,13 +282,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.shine[i][0]
         rare_sum += this.data.shine[i][1]
         money_sum += this.data.shine[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -268,13 +319,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.xiyou[i][0]
         rare_sum += this.data.xiyou[i][1]
         money_sum += this.data.xiyou[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -285,13 +344,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.feifan[i][0]
         rare_sum += this.data.feifan[i][1]
         money_sum += this.data.feifan[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -302,13 +369,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.shine[i][0]
         rare_sum += this.data.shine[i][1]
         money_sum += this.data.shine[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -331,13 +406,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.xiyou[i][0]
         rare_sum += this.data.xiyou[i][1]
         money_sum += this.data.xiyou[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -348,13 +431,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.feifan[i][0]
         rare_sum += this.data.feifan[i][1]
         money_sum += this.data.feifan[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -365,13 +456,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.shine[i][0]
         rare_sum += this.data.shine[i][1]
         money_sum += this.data.shine[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -427,13 +526,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.xiyou[i][0]
         rare_sum += this.data.xiyou[i][1]
         money_sum += this.data.xiyou[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -444,13 +551,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.feifan[i][0]
         rare_sum += this.data.feifan[i][1]
         money_sum += this.data.feifan[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -461,13 +576,21 @@ Page({
       var front = this.data.star_to - this.data.star_from
       var behind = this.data.step_to - this.data.step_from
       var j
+      var time1, time2
       var sum = 6 * front + behind
       for (var i = 6 * (this.data.star_from - 1) + parseInt(this.data.step_from), j = 0; j < sum; i++ , j++) {
         normal_sum += this.data.shine[i][0]
         rare_sum += this.data.shine[i][1]
         money_sum += this.data.shine[i][2]
+        time1 = parseInt(normal_sum / 20)
+        time2 = parseInt(rare_sum / 8)
+      }
+      if (time1 == null || time2 == null) {
+        time1 = 0;
+        time2 = 0;
       }
       this.setData({
+        time: Math.max(time1, time2),
         normal_key: normal_sum,
         rare_key: rare_sum,
         money: money_sum
@@ -529,6 +652,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    
+    return {
+      title: '闪耀暖暖工具箱',
+      path:'pages/index/index',
+      imageUrl: '../../img/SHARE.png'
+    }
   }
 })
