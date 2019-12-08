@@ -5,7 +5,7 @@
 
 <van-notice-bar
   mode="closeable"
-  text="以下排序综合了卡牌强度及稀有度(不考虑获取难度)"
+  text="以下排序只综合了卡牌纸面强度(未考虑馆藏)"
 />
 
 <view class="top">
@@ -187,7 +187,7 @@
   <text>\n</text>
   技能(5级)：基础加成30%，20秒心技提升30.8%
    <text>\n</text>
-  来源：竞技场</view> 
+  来源：竞技场(第一季)</view> 
 
   <image 
   style="width: 110px; height: 110px;"
@@ -227,6 +227,18 @@
 
   <image 
   style="width: 110px; height: 110px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/暖暖 · 时光花园.png'
+  mode="center"></image>
+  <view class='small-mi'><text class='paiming'>排名5</text><text class='normal-sm'>丨点数:3.13(竞技场 3.04)\n</text>
+  <text class='normal'>暖暖 · 时光花园\n</text> 
+  <van-tag color="#8bc8b6">清新</van-tag> 丨 <van-tag color="#c2ccd0">非凡</van-tag> 丨 <van-tag color="#b35c44">20S心技</van-tag>
+  <text>\n</text>
+  技能(5级)：基础加成25%，20秒心技提升23.1%
+   <text>\n</text>
+  来源：[ 生日大作战 ] 限时活动</view> 
+
+  <image 
+  style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/一衣红雪 · 花影遥.png'
   mode="center"></image>
   <view class='small-mi'><text class='paiming'>排名5</text><text class='normal-sm'>丨点数:3.13(竞技场 3.04)\n</text>
@@ -241,7 +253,7 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/秦衣 · 故年清梦.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名6 </text><text class='normal-sm'> 丨 点数:3.105\n</text>
+  <view class='small-mi'><text class='paiming'>排名7 </text><text class='normal-sm'> 丨 点数:3.105\n</text>
   <text class='normal'>秦衣 · 故年清梦\n</text> 
   <van-tag color="#8bc8b6">清新</van-tag> 丨 <van-tag color="#a78e44">稀有</van-tag> 丨 <van-tag color="#b35c44">闪耀爆发</van-tag>
   <text>\n</text>
@@ -253,7 +265,7 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/收视搭档 · 荒原印象.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名6 </text><text class='normal-sm'> 丨 点数:3.105\n</text>
+  <view class='small-mi'><text class='paiming'>排名7 </text><text class='normal-sm'> 丨 点数:3.105\n</text>
   <text class='normal'>收视搭档 · 荒原印象\n</text> 
   <van-tag color="#8bc8b6">清新</van-tag> 丨 <van-tag color="#a78e44">稀有</van-tag> 丨 <van-tag color="#b35c44">时机爆发</van-tag>
   <text>\n</text>
@@ -265,7 +277,7 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/倾羽墨 · 季夏之梦.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名8</text><text class='normal-sm'>丨点数:3.06(竞技场 2.90)\n</text>
+  <view class='small-mi'><text class='paiming'>排名9</text><text class='normal-sm'>丨点数:3.06(竞技场 2.90)\n</text>
   <text class='normal'>倾羽墨 · 季夏之梦\n</text> 
   <van-tag color="#8bc8b6">清新</van-tag> 丨 <van-tag color="#a78e44">稀有</van-tag> 丨 <van-tag color="#b35c44">10S心技</van-tag>
   <text>\n</text>
@@ -277,13 +289,25 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/夜宵 · 初醒玉兰.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名9</text><text class='normal-sm'>丨点数:2.94(竞技场 2.87)\n</text>
+  <view class='small-mi'><text class='paiming'>排名10</text><text class='normal-sm'>丨点数:2.94(竞技场 2.87)\n</text>
   <text class='normal'>夜宵 · 初醒玉兰\n</text> 
   <van-tag color="#8bc8b6">清新</van-tag> 丨 <van-tag color="#a78e44">稀有</van-tag> 丨 <van-tag color="#b35c44">20S心技</van-tag>
   <text>\n</text>
   技能(5级)：基础加成20%，20秒心技提升19.2%
    <text>\n</text>
   来源：情报屋</view> 
+
+  <image 
+  style="width: 110px; height: 110px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/夜宵 · 落花吟.png'
+  mode="center"></image>
+  <view class='small-mi'><text class='paiming'>榜外 </text><text class='normal-sm'> 丨 需结合实际情况分析\n</text>
+  <text class='normal'>夜宵 · 落花吟\n</text> 
+  <van-tag color="#8bc8b6">清新</van-tag> 丨 <van-tag color="#c2ccd0">非凡</van-tag> 丨 <van-tag color="#b35c44">护盾</van-tag>
+  <text>\n</text>
+  技能(5级)：基础加成15%，10秒内增加60%护盾
+   <text>\n</text>
+  来源：忆海巅峰之战(第二季)</view>
 
   <image 
   style="width: 110px; height: 110px;"
@@ -360,7 +384,7 @@
   <text>\n</text>
   技能(5级)：基础加成20%，闪耀瞬间提高100%
    <text>\n</text>
-  来源：忆海巅峰之战</view> 
+  来源：忆海巅峰之战(第一季)</view> 
 
   <image 
   style="width: 110px; height: 110px;"
@@ -476,9 +500,21 @@
 
   <image 
   style="width: 110px; height: 110px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/宙 · 蒸汽幻想.png'
+  mode="center"></image>
+  <view class='small-mi'><text class='paiming'>排名2</text><text class='normal-sm'>丨点数:3.36(竞技场 3.25)\n</text>
+  <text class='normal'>宙 · 蒸汽幻想\n</text> 
+  <van-tag color="#a471b3">性感</van-tag> 丨 <van-tag color="#ffc773">闪耀</van-tag> 丨 <van-tag color="#b35c44">20S心技</van-tag>
+  <text>\n</text>
+  技能(5级)：基础加成30%，20秒心技提升30.8%
+   <text>\n</text>
+  来源：竞技场(第二季)</view> 
+
+  <image 
+  style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/莉莉斯 · 绒兔星球.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名2 </text><text class='normal-sm'> 丨 点数:3.33\n</text>
+  <view class='small-mi'><text class='paiming'>排名3 </text><text class='normal-sm'> 丨 点数:3.33\n</text>
   <text class='normal'>莉莉斯 · 绒兔星球\n</text> 
   <van-tag color="#a471b3">性感</van-tag> 丨 <van-tag color="#c2ccd0">非凡</van-tag> 丨 <van-tag color="#b35c44">时机爆发</van-tag>
   <text>\n</text>
@@ -490,7 +526,7 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/暖暖 · 晴夏海风.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名2 </text><text class='normal-sm'> 丨 点数:3.33\n</text>
+  <view class='small-mi'><text class='paiming'>排名3 </text><text class='normal-sm'> 丨 点数:3.33\n</text>
   <text class='normal'>暖暖 · 晴夏海风\n</text> 
   <van-tag color="#a471b3">性感</van-tag> 丨 <van-tag color="#c2ccd0">非凡</van-tag> 丨 <van-tag color="#b35c44">闪耀爆发</van-tag>
   <text>\n</text>
@@ -503,7 +539,7 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/魔羊 · 苍羽流光.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名4</text><text class='normal-sm'>丨点数:3.28(竞技场 3.09)\n</text>
+  <view class='small-mi'><text class='paiming'>排名5</text><text class='normal-sm'>丨点数:3.28(竞技场 3.09)\n</text>
   <text class='normal'>魔羊 · 苍羽流光\n</text> 
   <van-tag color="#a471b3">性感</van-tag> 丨 <van-tag color="#c2ccd0">非凡</van-tag> 丨 <van-tag color="#b35c44">时机爆发</van-tag>
   <text>\n</text>
@@ -515,7 +551,7 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/灰灰草 · 流星之羽.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名5 </text><text class='normal-sm'> 丨 点数:3.105\n</text>
+  <view class='small-mi'><text class='paiming'>排名6 </text><text class='normal-sm'> 丨 点数:3.105\n</text>
   <text class='normal'>灰灰草 · 流星之羽\n</text> 
   <van-tag color="#a471b3">性感</van-tag> 丨 <van-tag color="#a78e44">稀有</van-tag> 丨 <van-tag color="#b35c44">时机爆发</van-tag>
   <text>\n</text>
@@ -527,7 +563,7 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/魔羊 · 废墟核芯.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名5 </text><text class='normal-sm'> 丨 点数:3.105\n</text>
+  <view class='small-mi'><text class='paiming'>排名6 </text><text class='normal-sm'> 丨 点数:3.105\n</text>
   <text class='normal'>魔羊 · 废墟核芯\n</text> 
   <van-tag color="#a471b3">性感</van-tag> 丨 <van-tag color="#a78e44">稀有</van-tag> 丨 <van-tag color="#b35c44">闪耀爆发</van-tag>
   <text>\n</text>
@@ -539,14 +575,25 @@
   style="width: 110px; height: 110px;"
   src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/阿欢 · 完美实验.png'
   mode="center"></image>
-  <view class='small-mi'><text class='paiming'>排名6</text><text class='normal-sm'>丨点数:3.06(竞技场 2.90)\n</text>
+  <view class='small-mi'><text class='paiming'>排名7</text><text class='normal-sm'>丨点数:3.06(竞技场 2.90)\n</text>
   <text class='normal'>阿欢 · 完美实验\n</text> 
   <van-tag color="#a471b3">性感</van-tag> 丨 <van-tag color="#a78e44">稀有</van-tag> 丨 <van-tag color="#b35c44">10S心技</van-tag>
   <text>\n</text>
   技能(5级)：基础加成15%，10秒心技提升35.7%
    <text>\n</text>
   来源：设计工坊(主线图纸)</view> 
-
+  
+  <image 
+  style="width: 110px; height: 110px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/莉莉斯 · 恶魔的私语.png'
+  mode="center"></image>
+  <view class='small-mi'><text class='paiming'>榜外 </text><text class='normal-sm'> 丨 需结合实际情况分析\n</text>
+  <text class='normal'>莉莉斯 · 恶魔的私语\n</text> 
+  <van-tag color="#a471b3">性感</van-tag> 丨 <van-tag color="#c2ccd0">非凡</van-tag> 丨 <van-tag color="#b35c44">护盾</van-tag>
+  <text>\n</text>
+  技能(5级)：基础加成15%，10秒内增加60%护盾
+   <text>\n</text>
+  来源：[ 恶魔的画像 ] 限时活动</view> 
 
   <image 
   style="width: 110px; height: 110px;"
@@ -673,6 +720,18 @@
   技能(5级)：基础加成12.5%，鞋袜回合额外触发闪耀瞬间
    <text>\n</text>
   来源：设计工坊(主线图纸)</view> 
+
+  <image 
+  style="width: 110px; height: 110px;"
+  src='cloud://lkx-smallprogram-re3im.6c6b-lkx-smallprogram-re3im/设计师之影/爱衣 · 像素大冒险.png'
+  mode="center"></image>
+  <view class='small-mi'><text class='paiming'>榜外 </text><text class='normal-sm'>丨需结合实际情况分析\n</text>
+  <text class='normal'>爱衣 · 像素大冒险\n</text> 
+  <van-tag color="#a6c4f6">帅气</van-tag> 丨 <van-tag color="#c2ccd0">非凡</van-tag> 丨 <van-tag color="#b35c44">解控</van-tag>
+  <text>\n</text>
+  技能(5级)：基础加成15%，解除随机异常一项
+   <text>\n</text>
+  来源：流光阁</view> 
 
   <image 
   style="width: 110px; height: 110px;"

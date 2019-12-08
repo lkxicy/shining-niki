@@ -1,13 +1,13 @@
 <van-notice-bar
   mode="closeable"
-  text="此页数据为国服竞技场，请注意"
+  text="此页数据为国服第二季竞技场，请注意"
 />
 <view class="all">
 
 <text class='title'>❏ 计算结果</text>
 <text class='small'>----请务必看底部的提示及计算说明哦</text>
 <view class="van-hairline--surround"></view>
-<text class="normal">赛季结束日期：2019-12-8，还有{{week}}次周结算
+<text class="normal">赛季结束日期：2019-04-12，还有{{week}}次周结算
 一共需要 {{flower_need + (count*750)}} 赞礼之花 
 可免费获得 {{flower_free}} 赞礼之花
 还差 {{flower_reduce}} 赞礼之花
@@ -88,6 +88,7 @@
 
 <text class='title'>\n❏ 说明及提示</text>
 <view class="van-hairline--surround"></view>
+<text class='normal-tip'> 第一季竞技场套装<text class='ok'>可以在竞技场商店中</text>兑换\n</text>
 <text class='normal-tip'> 若显示<text class='ok'>不可以兑换完</text>则请<text class='ok'>调整部位目标及需求</text>\n</text>
 <text class='normal-tip'> 计算结果是以<text class='number'>胜率100%</text>作为前提\n</text>
 <text class='normal-tip'> 计算时会<text class="ok">以今日已经打完为前提</text>\n</text>
