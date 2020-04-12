@@ -11,7 +11,8 @@
     "pages/designer/designer",
     "pages/skill/skill",
     "pages/introduce/introduce",
-    "pages/jjc/jjc"
+    "pages/jjc/jjc",
+    "pages/func-card/func-card"
   ],
   "window": {
     "backgroundColor": "#f3f9f1",

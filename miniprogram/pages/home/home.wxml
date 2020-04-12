@@ -9,10 +9,20 @@
 </view> 
 
 <text class='middle'>闪暖忆海绘\n</text>
-<text class='middle_small'>v2.2.0</text>
+<text class='middle_small'>v2.3.0</text>
 <text>\n\n</text>
 
 <van-cell-group>
+
+  <van-cell icon="manager-o" 
+  is-link 
+  link-type="navigateTo"
+  url='../../pages/func-card/func-card'
+  >
+  <view slot="title">
+    <text class='normal'>功能卡牌图鉴</text>
+  </view>
+  </van-cell>
 
   <van-cell icon="upgrade" 
   is-link 

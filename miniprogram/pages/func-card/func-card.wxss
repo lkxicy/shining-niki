@@ -1,0 +1,98 @@
+@import "../../dist/common/index.wxss";
+page{
+  background: #ffb3a7;
+}
+
+.top{
+  padding: 5px 0px;
+}
+
+.blank1{
+  background: #FFC6BD;
+  padding:20px 5px 10px 10px;
+}
+
+.blank2{
+  background: #ffb3a7;
+  padding:5px 5px 10px 10px;
+}
+
+.mid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFC6BD;
+  padding:10px 10px 10px 10px;
+}
+
+.all{
+  padding:5px 10px;
+}
+
+.paiming{
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff2df;
+}
+
+.fuhao{
+  color: #a4e2c6
+}
+
+.suojin{
+  text-indent:10px;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff2df;
+}
+
+.photo{
+  display:block;
+}
+
+.small-mi{
+  padding: 10px;
+  font-size: 12px;
+  color:#f3f9f1;
+  display:inline-block;
+  width:200px;
+  height:110px;
+}
+
+.small{
+  font-size: 12px;
+  color:#f3f9f1;
+}
+
+.small-th{
+  font-size: 12px;
+  color:#424c50;
+  text-decoration:line-through;
+}
+
+.middle{
+  font-weight: 600;
+  font-size: 18px;
+  color:#f3f9f1;
+}
+
+
+
+.normal{
+  font-size: 15px;
+  color:#424c50;
+}
+
+.normal-sm{
+  font-size: 12px;
+  color:#424c50;
+}
+
+.normal-sp{
+  white-space: pre;
+  font-size: 15px;
+  color:#424c50;
+}
