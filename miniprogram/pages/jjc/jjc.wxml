@@ -1,6 +1,6 @@
 <van-notice-bar
   mode="closeable"
-  text="此页数据为国服第二季竞技场，请注意"
+  text="此页数据为国服第三季竞技场，请注意"
 />
 
 <view class="all">
@@ -8,7 +8,7 @@
 <text class='title'>❏ 计算结果</text>
 <text class='small'>----请务必看底部的提示及计算说明哦</text>
 <view class="van-hairline--surround"></view>
-<text class="normal">赛季结束日期：2019-08-16，还有{{week}}次周结算
+<text class="normal">赛季结束日期：2020-08-16，还有{{week}}次周结算
 一共需要 {{flower_need + (count*750)}} 赞礼之花 
 可免费获得 {{flower_free}} 赞礼之花
 还差 {{flower_reduce}} 赞礼之花
