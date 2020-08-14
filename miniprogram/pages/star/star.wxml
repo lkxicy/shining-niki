@@ -54,7 +54,8 @@
 <van-row gutter="20">
   <van-col span="10">
     <text class='normal2'>当前星级</text>
-  <van-rate value="{{ star_from }}" 
+  <van-rate 
+  value="{{ star_from }}" 
   count="{{star_from_max}}"
   bind:change="onChange_from" />
   </van-col>
@@ -123,10 +124,5 @@
 
 </view>
 
-  <view class="blank1"></view>
-  <view class="blank2"></view>
 
-  <view class="mid">
-  <ad unit-id="adunit-565493884198fb21"></ad>
-
-  </view>
+  

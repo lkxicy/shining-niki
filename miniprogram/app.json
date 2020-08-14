@@ -3,16 +3,13 @@
     "van-icon": "../../dist/icon/index"
   },
   "pages": [
-    "pages/index/index",
+    "pages/jjc/jjc",
+    "pages/star/star",
     "pages/level/level",
     "pages/home/home",
-    "pages/suggest/suggest",
     "pages/about/about",
-    "pages/designer/designer",
     "pages/skill/skill",
-    "pages/introduce/introduce",
-    "pages/jjc/jjc",
-    "pages/func-card/func-card"
+    "pages/introduce/introduce"
   ],
   "window": {
     "backgroundColor": "#f3f9f1",
@@ -25,22 +22,22 @@
     "selectedColor": "#ffb3a7",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "星级提升",
-        "iconPath":"img/STAR_1.png",
-        "selectedIconPath":"img/STAR.png" 
-      },
-      {
         "pagePath": "pages/jjc/jjc",
         "text": "竞技场",
         "iconPath": "img/JJC_1.png",
         "selectedIconPath": "img/JJC.png"
       },
       {
-        "pagePath": "pages/designer/designer",
-        "text": "图鉴",
-        "iconPath": "img/PERSON_1.png",
-        "selectedIconPath": "img/PERSON.png"
+        "pagePath": "pages/star/star",
+        "text": "星级提升",
+        "iconPath":"img/STAR_1.png",
+        "selectedIconPath":"img/STAR.png" 
+      },
+      {
+        "pagePath": "pages/level/level",
+        "text": "等级提升",
+        "iconPath": "img/LEVEL_1.png",
+        "selectedIconPath": "img/LEVEL.png"
       },
       {
         "pagePath": "pages/home/home",

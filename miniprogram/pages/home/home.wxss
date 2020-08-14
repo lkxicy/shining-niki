@@ -4,6 +4,16 @@ page{
   background: #ffb3a7;
 }
 
+.blank1{
+  background: #FFC6BD;
+  padding:20px 5px 10px 10px;
+}
+
+.blank2{
+  background: #ffb3a7;
+  padding:5px 5px 10px 10px;
+}
+
 .button{
   height: 45px; 
   width: 100%; 

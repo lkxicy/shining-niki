@@ -9,41 +9,10 @@
 </view> 
 
 <text class='middle'>闪暖忆海绘\n</text>
-<text class='middle_small'>v2.3.0</text>
+<text class='middle_small'>v2.3.1</text>
 <text>\n\n</text>
 
 <van-cell-group>
-
-  <van-cell icon="manager-o" 
-  is-link 
-  link-type="navigateTo"
-  url='../../pages/func-card/func-card'
-  >
-  <view slot="title">
-    <text class='normal'>功能卡牌图鉴</text>
-  </view>
-  </van-cell>
-
-  <van-cell icon="upgrade" 
-  is-link 
-  link-type="navigateTo"
-  url='../../pages/level/level'
-  >
-  <view slot="title">
-    <text class='normal'>等级提升</text>
-  </view>
-  </van-cell>
-  
-
-  <van-cell icon="comment-o" 
-  is-link 
-  link-type="navigateTo"
-  url='../../pages/suggest/suggest'
-  >
-  <view slot="title">
-    <text class='normal'>意见反馈</text>
-  </view>
-  </van-cell>
 
   <van-cell icon="orders-o" 
   is-link 
@@ -66,7 +35,7 @@
   </van-cell>
 
 
-<van-cell icon="coupon-o" 
+  <van-cell icon="coupon-o" 
   is-link 
   link-type="navigateTo"
   url='../../pages/introduce/introduce'
@@ -92,7 +61,7 @@
   url='../../pages/about/about'
   >
   <view slot="title" >
-    <text class='normal'>关于</text>
+    <text class='normal'>关于及意见反馈</text>
   </view>
   </van-cell>
 
@@ -107,5 +76,13 @@
 </button>
 </view>
 <text class='small'>夜宵天下第一ヾ(´∀`o)+</text>
+
+</view>
+
+<view class="blank1"></view>
+  <view class="blank2"></view>
+
+  <view class="mid">
+  <ad unit-id="adunit-623a5b15df698556"></ad>
 
 </view>
